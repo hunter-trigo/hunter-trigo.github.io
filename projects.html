@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Hunter Trigo">
+  <meta name="description" content="Projects">
+   <!-- you would link to an external stylesheet here! -->
+   <!-- you would also link to Bootstrap here! -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="my-style.css">
+    <!--this keeps the carousel moving-->
+    <script language="JavaScript" type="text/javascript">
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 2000
+        })
+      });    
+    </script> 
+
+    <meta name = "viewport" content="width=device-width,initial-scale=1">
+    <title>Projects</title>
+</head>
+<body>
+  <div class="nav_">
+    <a href="index.html">Hunter Trigo</a>
+    <a class="active" href="index.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact_me.html">Contact</a>
+  </div>
+
+<div class="container">
+  
+  
+  <div class="col">
+    <h1>Moist Party</h1>
+    <div id="MoistParty">
+      <div class="row">
+        <div class="col">
+        <!--Video-->
+          <video controls width="500" height="300">
+            <source src="Videos/Moist Party.mp4" type="video/mp4">
+
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </div>
+        <div class="col">
+          <p> Moist Party is a multiplayer couch co-op video game created by myself and a group of peers. This game was created 
+            in Unity and features 8 minigames to choose from. Players can play in a tournament style game where they choose a goal point amount 
+            and minigames are randomly loaded up.The first player to reach the goal point amount wins the tournament.As the Art Lead on the team I used Maya to 
+            model the characters and various in-game components. I also conducted play testing sessions where I analyzed and prepared feedback for our development team to look at.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <div class="col">
+    <h1>ToyBox Toys</h1>
+    <div id="ToyBox_Bots">
+      <div class="row">
+        <div class="col">
+          <img src="Images/ToyBoxToys-1.png" alt="Picture of the cards for ToyBox Bots"  height=300 id="ToyBox">
+        </div>
+        <div class="col">
+          <p>ToyBox Toys was a two player card game that I completed with a group.Inspired by robot fighting, each player goes through different cycles of play to build
+            up their robots and fight them. The use of special ability cards and color group matching mechanic makes for dynamic forms of play.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <h1> Othello AI</h1>
+    <div id="OthelloAI">
+      <div class="row">
+        <div class="col">
+          <img src="Images/othello.png" alt="Picture of an Othello Board" height = 300 id="Othello">
+        </div>
+        <div class="col">
+          <p>The Othello AI decides the most optimal moves using a modified MCTS algorithm. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <h1> Skies of Icarus</h1>
+    <div id="SkiesIcarus">
+      <div class="row">
+        <div class="col">
+          <img src="images/SkiesofIcarus.JPG" alt="Picture of Gameplay for Skies of Icarus" height=300 id="Icarus">
+        </div>
+        <div class="col">
+          <p> Turn based two player card game inspired by the Nintendo 3DS game, Kid Icarus: Uprising. In this game players must switch off between taking cards from their deck to get resources
+            and playing attack cards against their opponent to deal damage.Players have a limited number of moves and must use resource cards such as wings or food to keep themselves from 'falling out of the sky' and losing. Dealing damage in this game causes 
+          your opponent to lose some of their avaiable moves. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col">
+    <h1> 3D Models</h1>
+    <div class ="row">
+      <div class ="col">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <!--When u add a new item make sure to add a new line here for each new slide, start at 0-->
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="carouselExampleIndicators" data-slide-to="7"></li>
+              <li data-target="carouselExampleIndicators" data-slide-to="8"></li>
+
+            </ol>
+            <!--This is where each slide is added , src is the image to use,H5 will be the title on the image , add <p> if you want a caption under the title-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="Images/hand.png" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hand Model</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Images/boat.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Boat Model</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Images/terrain1.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Terrain Generator: Simple Terrain</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Images/terrain2.jpg" alt="Fourth slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Terrain Generator: Cavernous Terrain</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="Images/fire.jpg" alt="Fifth slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Fire Particle Effects</h5>
+                </div>
+              </div>
+              <div class ="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="Videos/Boat_Animation.mp4" allowfullscreen alt="Sixth slide"></iframe>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Boat Rigging</h5>
+                </div>
+              </div>
+              <div class ="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="Videos/Baymax_Animation.mp4" allowfullscreen alt="Seventh slide"></iframe>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Character Model and Rigging</h5>
+                </div>
+              </div>
+              <div class ="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="Videos/Dominos_Animation.mp4" allowfullscreen alt="Eigth slide"></iframe>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Domino Falling Effect</h5>
+                </div>
+              </div>
+              <div class ="carousel-item">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="Videos/FarmMaze.mp4" allowfullscreen alt="Ninth slide"></iframe>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Collaborative Farm Maze Project</h5>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>
+      <div class ="col">
+        <p>I have extensive experience with creating 3D models in Maya. I have created 3D assets for the game I worked on, Moist Party. To the left there are examples of models I created for a course.
+          These include creating riggs that control different parts of a pirate ship, modeling the character Baymax from reference art and creating a rig to animate it, and working on a collaborative project. 
+          In this collaborative project I created the corn stalk model that made up the maze walls and the barn at the end of the maze. The models where then exported to Unity and I used triggers to automate the barn doors.
+          I also learned how to create procedural animations such as fire embers and rigid body dynamics with falling dominoes. I also created a terrain generator tool using Maya's MEL scripting. 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <h1> Queering Game Design</h1>
+    <div id="Queering">
+      <div class="row">
+        <div class ="col">
+          <!--Video-->
+          <video controls width="500" height="300">
+            <source src="Videos/QueeringGameDesign.mp4" type="video/mp4">
+
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+        </div>
+        <div class ="col">
+          <p>Queering Game Design was a research project in which my team and I aimed to answer the question: How can we guide game developers towards making inclusive and representative LGBTQIA+ characters?
+              We conducted research in the form of surveys to learn what LGBTQIA+ gamers think of current forms of LGBTQIA+ representation in video games. We also learned about froms of representation they would like to see along with 
+            options for character design choices. We then analyzed the data our surveys collected and used it to design our solution to the problem. 
+          </p>
+          <a href="https://sites.google.com/uci.edu/huntertrigo/home">To visit the portfolio for this research project click this link!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+  
+  
+  
+  
+ <!--bootstrap things, needed for the carousel--> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

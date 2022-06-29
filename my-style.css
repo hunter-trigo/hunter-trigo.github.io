@@ -1,0 +1,80 @@
+
+/*Nav Bar*/
+.nav_{
+    background-color:#34ED59 ;
+    height: 50px;
+}
+.nav_ a{
+        
+        padding-left: 14px;
+        padding-right: 14px;
+        background-color:#34ED59 ;
+        width:100%;
+        color:black;
+    }
+
+
+/*Website Aesthetics*/
+body {background-color: black}
+
+h1{color: #34ED59;
+    text-align: center;
+    margin-top: 1%; 
+    border:3px;
+    border-style:solid;
+    border-color:#34ED59;
+    padding:1em;}
+
+h2{color:green;
+text-align: center;
+margin-top: 1%;}
+
+h3{color:black}
+span{color:white; font-family: Arial, Times New Roman;text-align: center;}
+p{color:white; font-family: Arial, Times New Roman;padding-left: 2%;}
+
+img{padding-top: 10px;
+    margin:auto;}
+
+
+.container{ margin: auto;         
+            padding: 40px;
+}
+
+/*Index Page*/
+#me{height: 350px}
+
+
+
+/*Resume Page*/
+#resume{display: flex;justify-content: center;}
+#resume_img{max-width:50%;height:auto;width:auto}
+
+/*Projects Page (Blocks and image)*/
+#MoistParty{height: auto;}
+#OthelloAI{ height: auto;}
+#ToyBox_Bots{height: auto;}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+
+
+/*Contact Page*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px;
+    border-style:solid ;
+    border-color:#ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    
+  }
+  
+  
+  #linked{color:white;}
+  #git{color: white;}
